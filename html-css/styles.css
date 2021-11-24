@@ -1,0 +1,42 @@
+#card {
+  width: 400px;
+  background: #FFF;
+  border: 1px solid #CCC;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#card .card-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#card .card-top input {
+  width: 300px;
+  border-radius: 30px;
+  border: 1px solid #CCC;
+  padding: 15px 20px;
+}
+
+#card .list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#card .list li a {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.img-profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
