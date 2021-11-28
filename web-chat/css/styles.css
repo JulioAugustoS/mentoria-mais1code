@@ -1,0 +1,60 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Global */
+.avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 20px;
+  padding: 0 10px;
+  font-size: 16px;
+  background: #808080;
+  color: #D3D3D3;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #D3D3D3;
+}
+
+/* Header */
+.header {
+  max-height: 60px;
+  background: #676767;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header h1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-left: 14px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Contatos - Conteudo Esquerdo */
+#left-content {
+  max-width: 363px;
+  height: 100vh;
+  background: #323232;
+}
+
+#left-content #search-contact {
+  display: flex;
+  padding: 8px 20px;
+}
