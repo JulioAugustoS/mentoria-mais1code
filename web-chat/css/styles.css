@@ -138,6 +138,13 @@
   background-size: cover;
 }
 
+#right-content .content .message-list {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column-reverse;
+}
+
 #right-content .footer-chat {
   height: 60px;
   display: flex;
@@ -145,4 +152,38 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+}
+
+.message {
+  display: flex;
+  padding: 5px 10px;
+}
+
+.message .message-card {
+  max-width: 250px;
+  min-height: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.message .message-card p {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.left-message {
+  justify-content: flex-start;
+}
+
+.right-message {
+  justify-content: flex-end;
+}
+
+.user-chat {
+  background: #1d6b4a !important;
+  color: #FFF;
 }
